@@ -1,3 +1,5 @@
+
+require "pry"
 class BankAccount
   attr_accessor :balance,:status
  # attr_reader :name
@@ -19,7 +21,7 @@ class BankAccount
          def balance
   
              @balance
-  
+  binding.pry
          end
 
         def status
